@@ -1,0 +1,130 @@
+@import url("header.css");
+@import url("footer.css");
+
+body{
+
+}
+
+.breadcrumbs a{
+    display: inline-block;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+
+    /* background-color: rgb(247, 247, 247); */
+
+}
+
+h2{
+    font-size: 48px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+}
+
+.breadcrumbs{
+    margin-left: 30px;
+
+}
+
+/* ---------產品分類------------ */
+
+.p_t{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.p_t article{
+    /* border: 1px solid blue; */
+    margin-right: 20px;
+}
+
+.p_t article:last-child{
+    margin-right: 0;
+}
+
+.p_t article img{
+    border-radius: 50%;
+}
+
+.p_t article span{
+    display: block;
+    text-align: center;
+}
+
+/* ---------產品區塊------------ */
+
+.p_m{
+    /* border: 1px solid blue; */
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    
+}
+
+.p_m article{
+    border: 2px solid #777;
+    margin-bottom: 50px;
+
+    flex-basis: 200px;
+    margin-left: 20px;
+
+
+
+}
+
+.p_m article a{
+    
+}
+
+.p_m article img{
+    /* border: 1px solid blue; */
+    
+}
+
+.p_m article h4{
+    margin: 10px 0;
+    
+}
+
+.p_m article span{
+    display: block;
+    
+}
+
+.p_m article .all_p_btn{
+    margin-top: 20px;
+    width: 200px;
+    background-color: #f96248;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+
+/* ---------hover---------- */
+
+.p_m article:hover{
+    transform: scale(1.1);
+    transition: all .7s;
+}
+
+
+/* .all_p_btn:hover{
+    background-color: #fff;
+    color: #f96248;
+    cursor: pointer;
+    
+} */
+

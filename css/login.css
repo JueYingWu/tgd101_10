@@ -1,0 +1,78 @@
+@import url("header.css");
+@import url("footer.css");
+
+body{
+
+}
+
+.breadcrumbs a{
+    display: inline-block;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+h2{
+    font-size: 48px;
+    color: #B54F4F;
+
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+}
+
+.breadcrumbs{
+    margin-left: 30px;
+
+}
+
+/* -------main--------- */
+
+.login_main{
+    /* border: 1px solid red; */
+    width: 400px;
+    margin: 100px auto;
+
+}
+
+
+.login_main label{
+    font-size: 25px;
+
+}
+
+.login_main input{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+
+}
+
+.login_main .btn{
+    display: block;
+    width: 100px;
+    line-height: 35px;
+    text-align: center;
+    /* border: 1px solid blue; */
+    margin: 20px auto;
+    background-color: brown;
+    border: 0;
+    color: #fff;
+    
+
+} 
+
+
+.login_main p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.login_main a{
+    display: inline-block;
+    color: #4fab66;
+
+}

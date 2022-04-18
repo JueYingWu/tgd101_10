@@ -1,0 +1,137 @@
+@import url("header.css");
+@import url("footer.css");
+
+body{
+}
+
+.about_main p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.breadcrumbs a{
+    display: inline-block;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.banner img{
+
+}
+
+h2 img{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.breadcrumbs{
+    margin-left: 30px;
+}
+
+
+.about_main{
+    display: block;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+}
+
+/* ------上面的區塊-------- */
+
+.about1{
+    /* border: 1px solid blue; */
+    margin: 0 35px;
+    padding-bottom: 300px;
+
+    display: flex;
+}
+
+
+/* -------左邊------- */
+
+.about1_left{
+    /* border: 1px solid pink; */
+
+    position: relative;
+}
+
+.about1_left .l1{
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+}
+
+.about1_left .l2{
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+}
+
+.about1_left .l3{
+    border: 5px solid #fff;
+    position: absolute;
+    left: 130px;
+    top: 340px; 
+}
+
+.about1_left p{
+    width: 16px;
+    position: absolute;
+    left: 80px;
+    top: 420px; 
+}
+
+
+
+/* ------右邊------- */
+
+.about_text{
+    /* border: 1px solid purple; */
+    width: 410px;
+    margin-left: 35px;
+
+}
+
+.left_text{
+    padding-top: 120px;
+}
+
+.about_text h3{
+    color: #4fab66;
+    font-weight: bolder;
+    font-size: 36px;
+    padding-top: 110px;
+    margin-left: 30px;
+}
+
+.about_text p{
+    padding-top: 50px;
+}
+
+.top_text{
+    margin-top: 110px;
+}
+
+/* -------------下面的區塊---------------- */
+
+.about2{
+    /* border: 1px solid blue; */
+    margin: 100px 35px;
+
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.about2 img{
+    margin-left: 50px;
+    margin-right: 35px;
+}
+
+.bottom_text{
+    /* margin-left: 60px; */
+}

@@ -1,0 +1,237 @@
+@import url("header.css");
+@import url("footer.css");
+
+body{
+
+}
+
+.breadcrumbs a{
+    display: inline-block;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h2 img{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.breadcrumbs{
+    margin-left: 30px;
+    margin-bottom: 100px;
+
+}
+
+/* ----------內容外層-------------- */
+
+.store{
+    /* border: 1px solid blue; */
+    position: relative;
+}
+
+.store img{
+    display: block;
+    /* border: 1px solid green; */
+    margin: 150px auto;
+
+}
+
+/* --------內容區塊-------- */
+.store_main{
+
+}
+
+.store_main img{
+    border-radius: 50%;
+}
+
+/* 觀察用 */
+.store_main li{
+    width: 438px;
+    /* height: 437px; */
+    border-radius: 50%;
+    /* border: 1px solid #000; */
+}
+
+.store_main li img{
+    /* border: 1px solid red; */
+}
+
+/* li絕對定位 */
+.store_main li:first-child{
+    position: absolute;
+    right: 160px;
+    top: -100px;
+}
+
+.store_main li:nth-child(2){
+    position: absolute;
+    right: 550px;
+    top: 160px;
+}
+
+.store_main li:nth-child(3){
+    position: absolute;
+    right: 150px;
+    top: 430px;
+}
+
+.store_main li:last-child{
+    position: absolute;
+    right: 450px;
+    top: 790px;
+
+}
+
+/* 裡面文字 */
+.store_text h5{
+    background-color: #4fab66;
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .store_text p{
+    background-color: #4fab66;
+    color: #fff;
+    font-size: 13px;
+    padding: 16px 32px;
+  }
+
+/* ---------hover----------- */
+
+/* 第一個 */
+.s_one{
+    position: relative;
+    width: 50%;
+}
+  
+.o1{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.store1{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.s_one:hover .o1{
+    opacity: 0.3;
+}
+  
+.s_one:hover .store1{
+    opacity: 1;
+}
+
+/* 第二個 */
+.s_two{
+    position: relative;
+    width: 50%;
+}
+  
+.o2{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.store2{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.s_two:hover .o2{
+    opacity: 0.3;
+}
+  
+.s_two:hover .store2{
+    opacity: 1;
+}
+
+/* 第三個 */
+.s_three{
+    position: relative;
+    width: 50%;
+}
+  
+.o3{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.store3{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.s_three:hover .o3{
+    opacity: 0.3;
+}
+  
+.s_three:hover .store3{
+    opacity: 1;
+}
+  
+/* 第四個 */
+.s_four{
+    position: relative;
+    width: 50%;
+}
+  
+.o4{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.store4{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.s_four:hover .o4{
+    opacity: 0.3;
+}
+  
+.s_four:hover .store4{
+    opacity: 1;
+}

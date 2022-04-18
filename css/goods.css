@@ -1,0 +1,202 @@
+@import url("header.css");
+@import url("footer.css");
+
+body{
+
+}
+
+.breadcrumbs a{
+    display: inline-block;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+
+    /* background-color: rgb(247, 247, 247); */
+
+}
+
+.breadcrumbs{
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
+
+/* ----------內容區塊----------- */
+
+/* ---------左邊--------- */
+
+.goods_main{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.main_left{
+    /* border: 3px solid #777; */
+    margin-right: 50px;
+
+}
+
+.main_left > img{
+    /* border: 1px solid pink; */
+    border: 3px solid #777;
+
+
+}
+
+.little_img{
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+
+}
+
+.little_img img{
+    /* border: 1px solid green; */
+    margin-right: 10px;
+
+}
+
+.little_a, .little_b{
+    border: 3px solid #777;
+
+}
+
+/* 換圖
+.little_a:hover .pic_main{
+
+} */
+
+
+/* --------右邊---------- */
+.main_right{
+    /* border: 1px solid gray; */
+}
+
+.goods_text{
+    margin-bottom: 50px;
+
+}
+
+.goods_text h3{
+    color: #B54F4F;
+    font-size: 36px;
+    padding-bottom: 50px;
+
+}
+
+.goods_text span{
+    display: block;
+    font-size: 28px;
+    display: block;
+    margin-bottom: 23px;
+
+}
+.goods_text p{
+    line-height: 30px;
+}
+
+form{
+
+}
+
+.number{
+    margin-bottom: 20px;
+    /* margin-left: 20px; */
+    /* width: 120px; */
+    /* border: 1px solid red; */
+
+
+}
+
+.number input{
+    border: 0;
+    outline: 0;
+}
+
+.number .n_minus{
+
+}
+
+.number .n_n{
+    width: 60px;
+    text-align: center;
+    padding-left: 5px;
+    /* background-color: #f2f2f2; */
+    /* border: 1px solid #000; */
+
+}
+
+.number .n_plus{
+
+}
+
+form button{
+    width: 120px;
+    font-size: 21px;
+    border: 0;
+    /* margin-left: 20px; */
+
+}
+
+.btn_add{
+    background-color: #f96248;
+    color: #fff;
+
+}
+
+.btn_buy{
+    background-color: #f96248;
+    color: #fff;
+
+}
+
+/* 分隔線 */
+
+.goods_line{
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-bottom: 2px solid #000;
+    
+}
+
+
+/* ------------下面------------- */
+
+.hat{
+    font-size: 30px;
+    color: #B54F4F;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.hat_main{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    
+    margin-bottom: 80px;
+}
+
+.hat_main article{
+    /* border: 1px solid olivedrab; */
+    margin-right: 10px;
+    
+}
+
+.hat_main article img{
+    /* width: 50%; */
+    border: 2px solid rgb(218, 199, 61);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}

@@ -1,0 +1,252 @@
+@import url("rest.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+@import url("footer.css");
+
+/* -----------all------------- */
+body{
+    font-size: 20px;
+    font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif, "Raleway";
+
+    /* background-image: url(./img/green_bg.jpg); */
+
+    /* 背景 */
+    background: linear-gradient(270deg, #f1fffb, #e4fbff, #fae9ff, #fce7e1, #fcfce1);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+
+}
+
+/* 背景動畫 */
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+
+
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+
+}
+
+/* ---hover--- */
+a:hover{
+
+    color: #4fab66;
+}
+
+button, input:hover{
+    cursor: pointer;
+}
+
+
+/* ---------header--------- */
+header{
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: url(../img/bg/bgfff.jpg); */
+    position: relative;
+    
+}
+
+h1 img{
+
+    /* margin-right: 215px; */
+
+
+}
+
+/* ----------功能列----------- */
+.nav_top{
+    /* border: 1px solid blue; */
+    margin-left: auto;
+    line-height: 24px;
+    
+
+    position: absolute;
+    right: 18px;
+    top: 0;
+
+}
+
+.nav_top ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+}
+
+.nav_top li{
+    margin-right: 20px;
+}
+
+.nav_top a{
+    font-size: 18px;
+}
+
+.nav_top img{
+
+}
+
+/* ---------主選單------------ */
+.nav_content{
+    width: 1200px;
+    /* border: 1px solid purple; */
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.nav_content h1 img{
+    margin-left: 30px;
+} 
+
+
+
+.nav_main{
+    /* border: 1px solid green; */
+    margin-right: 30px;
+
+}
+
+.nav_main ul{
+    display: flex;
+
+
+
+    position: relative;
+   
+
+}
+
+.nav_main li{
+    /* border: 1px solid #ccc; */
+    margin-right: 40px;
+
+
+}
+
+.nav_main li:last-child{
+    margin-right: 0;
+}
+
+.nav_main a{
+
+
+}
+
+
+
+/* ----------子選單---------- */
+.nav_main .nav_menu{
+
+    /* border: 1px solid #ccc; */
+    background-color: #fff;
+
+
+    position: absolute;
+    right: 370px;
+    top: 36px;
+
+    flex-direction: column;
+
+    display: none;
+
+}
+
+.nav_main .nav_menu li{
+
+    border: 1px solid #ccc;
+    line-height: 55px;
+    text-align: center;
+    margin-right: 0;
+    width: 120px;
+
+
+}
+
+.nav_main .nav_menu a{
+    color: #4fab66;
+}
+
+
+/* ------------hover------------- */
+
+/* .nav_main  li  a:hover .b_line{
+    display: block;
+}
+
+.nav_top  a:hover .b_line{
+    display: block; 
+}
+*/
+ li:hover .nav_menu{
+    display: block;
+
+}
+
+
+.nav_menu li:hover{
+    background-color: #4fab66;
+
+}
+
+.nav_menu li a:hover{
+    color: #fff;
+}
+
+
+/* 底線 */
+/* 
+.nav_top .b_line{
+    display: block;
+    border-bottom: 3px solid #4fab66;
+
+    display: none;
+
+}
+
+.nav_main .b_line{
+    display: block;
+    border-bottom: 3px solid #4fab66;
+
+    display: none;
+
+}
+
+/* 底線hover */
+
+.nav_top .b_line: */
