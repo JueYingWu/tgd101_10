@@ -2,19 +2,19 @@
 @import url("footer.css");
 
 body{
-    /* background-image: url(./img/j1.jpg); */
-    /* background-image: url(../img/bg/bgblue.jpg); */
+    /* background-image: url(./img/j1.jpg);
+    background-image: url(../img/bg/bgblue.jpg);
     
     background: linear-gradient(270deg, #f1fffb, #e4fbff, #fae9ff, #fce7e1, #fcfce1);
     background-size: 1000% 1000%;
 
     -webkit-animation: AnimationName 30s ease infinite;
     -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite; */
 
 }
 
-/* 背景動畫 */
+/* 背景動畫
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
@@ -29,7 +29,7 @@ body{
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
-}
+} */
 
 
 .wrapper{

@@ -65,25 +65,25 @@ h2 img{
 .store_main li:first-child{
     position: absolute;
     right: 160px;
-    top: -100px;
+    top: -250px;
 }
 
 .store_main li:nth-child(2){
     position: absolute;
     right: 550px;
-    top: 160px;
+    top: 20px;
 }
 
 .store_main li:nth-child(3){
     position: absolute;
     right: 150px;
-    top: 430px;
+    top: 310px;
 }
 
 .store_main li:last-child{
     position: absolute;
     right: 450px;
-    top: 790px;
+    top: 690px;
 
 }
 
