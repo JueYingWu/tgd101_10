@@ -216,6 +216,7 @@ body{
 
 }
 
+
 /* -------筆的部分------ */
 .s_m{
     /* border: 1px solid #000; */
@@ -226,27 +227,35 @@ body{
     background-repeat: no-repeat; */
 
 
-
-    position: relative;
 }
 
-.s_bg{
-    /* border: 1px solid #000; */
-    margin-left: 111.5px;
+
+/* 說明區塊 */
+.sch_intext{
+    width: 650px;
+	height: 150px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: 0 auto 50px auto;
+
 }
 
-.penbody{
-    position: absolute;
-    left: 530px;
-    top: -6px;
-
+.sch_intext h5{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
 }
-
+.sch_intext p{
+    margin: 0;
+    line-height: 30px;
+    
+}
 
 .mo{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 380px;
+    margin-top: 50px;
     margin-left: -7px;
 
     /* border: 1px solid blue; */
@@ -261,24 +270,24 @@ body{
 }
 
 .mo_woof{
-    position: absolute;
+    /* position: absolute;
     left: 270px;
-    top: 0;
+    top: 0; */
 
 }
 
 .mo_both{
 
-    position: absolute;
+    /* position: absolute;
     right: 270px;
-    top: 0;
+    top: 0; */
 
 }
 
 /* ---------說明------------ */
 
-.mo_text{
-    /* border: 1px solid green; */
+/* .mo_text{
+    border: 1px solid green;
     display: flex;
     justify-items: center;
     width: 900px;
@@ -288,7 +297,7 @@ body{
 
 .mo_text li{
     width: 400px;
-    /* border: 1px solid rebeccapurple; */
+    border: 1px solid rebeccapurple;
     padding: 10px 60px;
     
 
@@ -310,7 +319,7 @@ body{
     text-align: center;
 
 }
-
+*/
 
 .school > P{
     line-height: 30px;
@@ -325,7 +334,7 @@ body{
     margin-top: 80px;
     margin-bottom: 100px;
     
-}
+} 
 
 /* hove */
 

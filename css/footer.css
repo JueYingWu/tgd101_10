@@ -50,6 +50,7 @@ footer{
 .footer_left p{
     color: #fff;
     font-size: 20px;
+    margin-bottom: 10px;
 
 
 }
@@ -60,5 +61,5 @@ footer{
     position: absolute;
 
     right: 200px;
-    bottom: 0;
+    bottom: 20px;
 }
