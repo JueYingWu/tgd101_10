@@ -82,7 +82,7 @@ h2 img{
 .about1_left p{
     /* width: 16px; */
     writing-mode: vertical-lr;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
     left: 90px;
     top: 10px; 
