@@ -40,6 +40,7 @@ h2 img{
     margin-top: 100px;
 }
 
+
 /* ------上面的區塊-------- */
 
 .about1{
@@ -79,10 +80,12 @@ h2 img{
 }
 
 .about1_left p{
-    width: 16px;
-    position: absolute;
-    left: 80px;
-    top: 420px; 
+    /* width: 16px; */
+    writing-mode: vertical-lr;
+    border: 1px solid red;
+    position: relative;
+    left: 90px;
+    top: 10px; 
 }
 
 
