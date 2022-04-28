@@ -1,42 +1,15 @@
 @import url("rest.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
 @import url("footer.css");
-
+html{
+    font-size: 62.5%;
+}
 /* -----------all------------- */
 body{
-    font-size: 20px;
+    font-size: 2rem;
     font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif, "Raleway";
 
-    /* background-image: url(./img/green_bg.jpg); */
-
-    /* 背景 */
-    /* background: linear-gradient(270deg, #f1fffb, #e4fbff, #fae9ff, #fce7e1, #fcfce1);
-    background-size: 1000% 1000%;
-
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite; */
-
 }
-
-/* 背景動畫
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-} */
-
-
 
 a{
     text-decoration: none;
@@ -111,7 +84,7 @@ h1 img{
 }
 
 .nav_top a{
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .nav_top img{
@@ -144,12 +117,8 @@ h1 img{
 
 .nav_main ul{
     display: flex;
-
-
-
     position: relative;
    
-
 }
 
 .nav_main li{
@@ -165,10 +134,7 @@ h1 img{
 
 .nav_main a{
 
-
 }
-
-
 
 /* ----------子選單---------- */
 .nav_main .nav_menu{

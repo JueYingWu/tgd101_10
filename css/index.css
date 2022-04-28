@@ -1,36 +1,12 @@
 @import url("header.css");
 @import url("footer.css");
-
-body{
-    /* background-image: url(./img/j1.jpg);
-    background-image: url(../img/bg/bgblue.jpg);
-    
-    background: linear-gradient(270deg, #f1fffb, #e4fbff, #fae9ff, #fce7e1, #fcfce1);
-    background-size: 1000% 1000%;
-
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite; */
-
-}
-
-/* 背景動畫
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+/* html{
+    font-size: 62.5%;
 } */
 
+body{
+
+}
 
 .wrapper{
     width: 1200px;
@@ -63,7 +39,7 @@ body{
 
 .new_content h3{
     color: #B54F4F;
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: bold;
     padding-top: 45px;
     margin-bottom: 45px;
@@ -103,7 +79,7 @@ body{
 }
 
 .item_new h5{
-    font-size: 28px;
+    font-size: 2.8rem;
     color: #fff;
 
     margin: 20px 0;
@@ -112,7 +88,7 @@ body{
 
 .item_new p{
     color: #fff;
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 20px;
 
 }
@@ -137,7 +113,7 @@ body{
 
 .hat h3{
     color: #B54F4F;
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: bold;
     padding-top: 45px;
     padding-bottom: 45px;
@@ -192,7 +168,7 @@ body{
 
 .school h3{
     color: #B54F4F;
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: bold;
     padding-top: 45px;
     padding-bottom: 45px;
@@ -203,7 +179,7 @@ body{
 .school h5{
     color: #4fab66;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 2.8rem;
     margin-left: 74px;
     margin-bottom: 35px;
     
@@ -284,42 +260,6 @@ body{
 
 }
 
-/* ---------說明------------ */
-
-/* .mo_text{
-    border: 1px solid green;
-    display: flex;
-    justify-items: center;
-    width: 900px;
-    margin: 0 auto;
-
-}
-
-.mo_text li{
-    width: 400px;
-    border: 1px solid rebeccapurple;
-    padding: 10px 60px;
-    
-
-}
-
-.mo_text h5{
-    font-weight: bold;
-    margin-left: 0;
-    text-align: center;
-}
-
-.mo_text li p{
-    margin-left: 0;
-    line-height: 30px;
-
-}
-
-.mo_text li p:first-child{
-    text-align: center;
-
-}
-*/
 
 .school > P{
     line-height: 30px;
