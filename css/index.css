@@ -106,7 +106,7 @@ body{
 
 /* ----------熱銷排行----------- */
 .hat{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 1200px;
     height: 500px;
     margin: 0 auto;
@@ -127,7 +127,7 @@ body{
 
 .popular{
     display: flex;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     justify-content: center;
 
 
@@ -330,7 +330,7 @@ body{
     .new_content{
         width: auto;
         height: auto;
-        border: 1px solid firebrick;
+        /* border: 1px solid firebrick; */
     }
 
     .new_content h3{
@@ -345,7 +345,7 @@ body{
         width: 100%;
         flex-direction: column;
         justify-content: flex-start;
-        border: 1px solid rebeccapurple;
+        /* border: 1px solid rebeccapurple; */
     }
 
     .new li{
