@@ -15,7 +15,7 @@ footer{
 
 .f_main{
     width: 1200px;
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,13 +23,13 @@ footer{
 }
 
 .footer_left{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin-left: 100px;
 
 }
 
 .footer_right{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     display: flex;
     margin-right: 200px;
 
@@ -62,4 +62,47 @@ footer{
 
     right: 200px;
     bottom: 20px;
+}
+
+@media screen and (max-width:428px){
+    footer{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .f_main{
+        /* flex-direction: column; */
+        width: auto;
+        /* justify-content: start; */
+        display: block;
+    }
+
+    .f_main h5{
+        font-size: 1.2rem;
+    }
+
+    .footer_right a{
+        padding-left: 0;
+    }
+
+
+    .footer_left{
+        margin-left: 0;
+
+    }
+
+    .footer_left p{
+        font-size: 1.2rem;
+    }
+
+
+
+    .remark{
+        position: static;
+        font-size: 1rem;
+        margin-bottom: 15px;
+        margin-left: 5px;
+
+    }
 }

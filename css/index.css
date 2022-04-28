@@ -19,9 +19,13 @@ body{
 /* -----------banner------------- */
 .banner img{
     display: block;
+    width: 100%;
 }
-/* 圖片有空隙 */
 
+/* 圖片有空隙 */
+.banner .banner_s{
+    display: none;
+}
 
 
 
@@ -102,7 +106,7 @@ body{
 
 /* ----------熱銷排行----------- */
 .hat{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     width: 1200px;
     height: 500px;
     margin: 0 auto;
@@ -123,21 +127,27 @@ body{
 
 .popular{
     display: flex;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     justify-content: center;
 
 
 }
 
 .popular article{
-    border: 2px solid rgb(218, 199, 61);
     margin-right: 30px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
 
 
     position: relative;
 
     
+}
+
+.popular article img:first-child{
+    border: 2px solid rgb(218, 199, 61);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
 }
 
 .popular article:last-child{
@@ -240,6 +250,10 @@ body{
     
 }
 
+.mo_text{
+    display: none;
+}
+
 .mo li img{
     /* border: 1px solid palevioletred; */
 
@@ -294,4 +308,203 @@ body{
 
     transform: scale(1.2);
 
+}
+
+@media screen and (max-width:428px) {
+    .wrapper{
+        width: auto;
+    }
+
+    /* ------------------banner---------------------- */
+    .banner .banner_l{
+        display: none;
+    }
+
+    .banner .banner_s{
+        display: block;
+        width: 100%;
+    }
+
+
+    /* ---------------------最新消息------------------- */
+    .new_content{
+        width: auto;
+        height: auto;
+        border: 1px solid firebrick;
+    }
+
+    .new_content h3{
+        text-align: center;
+        margin-left: 10px;
+        font-size: 2.8rem;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .new{
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        border: 1px solid rebeccapurple;
+    }
+
+    .new li{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+    }
+
+    .item_new{
+        width: 175px;
+        height: 200px;
+        position: static;
+    }
+
+    .item_new img{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .item_new .pushpin{
+        position: static;
+    }
+
+    .item_new h5{
+        font-size: 1.2rem;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .item_new p{
+        font-size: 1rem;
+    }
+
+    .item_new time{
+        font-size: 1rem;
+        display: block;
+    }
+
+
+    /* --------------------熱銷排行------------- */
+    .hat{
+        width: auto;
+        height: auto;
+    }
+
+    .hat h3{
+        text-align: center;
+        margin-left: 10px;
+        font-size: 2.8rem;
+        padding-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+
+    }
+
+    .popular{
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .popular article{
+        /* width: 50%; */
+    }
+
+    .popular article img{
+        width: 50%;
+
+    }
+
+    .popular article:last-child{
+        margin-right: 30px;
+    }
+
+    /* top的黃色條 */
+    .popular .ranking{
+        width: 20%;
+
+        position: absolute;
+        left: 80px;
+
+    }
+
+
+
+    /* -------------------學堂------------------------ */
+
+    .school{
+        width: auto;
+    }
+
+
+    .school h3{
+        text-align: center;
+        margin-left: 10px;
+        font-size: 2.8rem;
+        padding-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+
+    }
+
+    .school h5{
+        font-size: 2rem;
+        margin-left: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .school p{
+        margin: 0 20px;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .s_m{
+        margin-bottom: 20px;
+    }
+
+    .sch_intext{
+        width: auto;
+        font-size: 1rem;
+        display: none;
+    }
+
+
+
+
+    .mo{
+        /* display: none; */
+        display: block;
+    }
+
+    .mo li{
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .mo h5{
+        margin-top: 10px;
+    }
+
+    .mo_text{
+        display: block;
+        border: 1px solid peru;
+    }
+
+
+    .mo li img{
+        width: 40%;
+        height: 40%;
+        margin-left: 15px;
+    }
+
+
+    .school > img{
+        width: 50%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }    
 }

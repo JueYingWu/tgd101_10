@@ -23,8 +23,9 @@ a{
     width: 1440px;
     margin: 0 auto;
     /* border: 1px solid red; */
-
 }
+
+
 
 /* ---hover--- */
 a:hover{
@@ -49,13 +50,6 @@ header{
     /* background-image: url(../img/bg/bgfff.jpg); */
     position: relative;
     
-}
-
-h1 img{
-
-    /* margin-right: 215px; */
-
-
 }
 
 /* ----------功能列----------- */
@@ -88,6 +82,7 @@ h1 img{
 }
 
 .nav_top img{
+    /* width: 100%; */
 
 }
 
@@ -105,6 +100,7 @@ h1 img{
 
 .nav_content h1 img{
     margin-left: 30px;
+    width: 100%;
 } 
 
 
@@ -136,6 +132,10 @@ h1 img{
 
 }
 
+.nav_main span{
+    font-size: 3rem;
+}
+
 /* ----------子選單---------- */
 .nav_main .nav_menu{
 
@@ -144,7 +144,7 @@ h1 img{
 
 
     position: absolute;
-    right: 370px;
+    right: 290px;
     top: 36px;
 
     flex-direction: column;
@@ -215,4 +215,104 @@ h1 img{
 
 /* 底線hover */
 
-.nav_top .b_line: */
+/* .nav_top .b_line:  */
+
+
+
+/* RWD 428*/
+@media screen and (max-width:428px) {
+    .wrapper{
+      width: 100%;
+    }
+    
+
+    header{
+        width: auto;
+        height: auto;
+        /* background-color: #4fab66; */
+        flex-direction: column; 
+        justify-content: flex-start; 
+        display: block;
+        
+    }
+
+    /* 功能列 */
+    .nav_top{
+        position: static;
+
+    }
+
+    .nav_top ul{
+        width: auto;
+        /* flex-direction: column; */
+        justify-content: flex-end;
+        border: 1px solid red;
+    }
+
+    .nav_top li{
+        margin-right: 10px;
+    }
+
+    .nav_top a{
+        font-size: 1rem;
+    }
+
+    .nav_top img{
+        width: 20%;
+    }
+
+
+
+    /* 主選單 */
+    .nav_content{
+        width: auto;
+        border: 1px solid blue;
+        justify-content: flex-start;
+
+        position: relative;
+
+    }
+    .nav_content h1 img{
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    .nav_main{
+        border: 1px solid green;
+
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav_main ul{
+        flex-direction: column;
+        justify-content: start;
+
+    }
+    .nav_main li{
+        /* margin-left: 10px; */
+
+    }
+    /* 上方主標題的字 */
+    .nav_main span{
+        font-size: 2rem;
+
+        
+    }
+
+
+    .nav_main .nav_menu li{
+        width: 100%;
+    }
+
+
+}
+
+/* RWD 390 */
+@media screen and (max-width:390px) {
+    .wrapper{
+        width: 100%;
+    }
+
+} 
