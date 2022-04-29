@@ -219,6 +219,94 @@ header{
 
 
 
+/* -------------------575.98------------------------ */
+@media screen and (max-width:575.98px) {
+
+     .wrapper{
+      width: 100%;
+    }
+
+    header{
+        width: auto;
+        height: auto;
+        /* background-color: #4fab66; */
+        flex-direction: column; 
+        justify-content: flex-start; 
+        display: block;
+        
+    }
+
+    /* 功能列 */
+    .nav_top{
+        position: static;
+
+    }
+
+    .nav_top ul{
+        width: auto;
+        /* flex-direction: column; */
+        justify-content: flex-end;
+        border: 1px solid red;
+    }
+
+    .nav_top li{
+        margin-right: 10px;
+    }
+
+    .nav_top a{
+        font-size: 1rem;
+    }
+
+    .nav_top img{
+        width: 20%;
+    }
+
+
+
+    /* 主選單 */
+    .nav_content{
+        width: auto;
+        border: 1px solid blue;
+        justify-content: flex-start;
+
+        position: relative;
+
+    }
+    .nav_content h1 img{
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    .nav_main{
+        border: 1px solid green;
+
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav_main ul{
+        flex-direction: column;
+        justify-content: start;
+
+    }
+    .nav_main li{
+        /* margin-left: 10px; */
+
+    }
+    /* 上方主標題的字 */
+    .nav_main span{
+        font-size: 2rem;
+
+        
+    }
+
+
+    .nav_main .nav_menu li{
+        width: 100%;
+    }
+}
+
 /* RWD 428*/
 @media screen and (max-width:428px) {
     .wrapper{

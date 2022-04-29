@@ -310,6 +310,214 @@ body{
 
 }
 
+/* ----------------------------------575.98--------------------------------- */
+@media screen and (max-width:575.98px){
+
+    .wrapper{
+        width: auto;
+    }
+
+    /* ------------------banner---------------------- */
+    .banner .banner_l{
+        display: block;
+        max-width: 100%;
+    }
+
+    .banner .banner_s{
+        /* display: block; */
+        width: 100%;
+    }
+
+
+    /* ---------------------最新消息------------------- */
+    .new_content{
+        width: auto;
+        height: auto;
+        /* border: 1px solid firebrick; */
+    }
+
+    .new_content h3{
+        text-align: center;
+        margin-left: 10px;
+        font-size: 2.8rem;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .new{
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* border: 1px solid rebeccapurple; */
+    }
+
+    .new li{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+    }
+
+    .item_new{
+        width: 175px;
+        height: 200px;
+        position: static;
+    }
+
+    .item_new img{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .item_new .pushpin{
+        position: static;
+    }
+
+    .item_new h5{
+        font-size: 1.2rem;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .item_new p{
+        font-size: 1rem;
+    }
+
+    .item_new time{
+        font-size: 1rem;
+        display: block;
+    }
+
+
+    /* --------------------熱銷排行------------- */
+    .hat{
+        width: auto;
+        height: auto;
+    }
+
+    .hat h3{
+        text-align: center;
+        margin-left: 10px;
+        font-size: 2.8rem;
+        padding-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+
+    }
+
+    .popular{
+        /* width: auto; */
+        width: 480px;
+        /* display: block; */
+        display: flex;
+        /* text-align: center; */
+        margin: 0 auto;
+
+    }
+
+    .popular article{
+        /* width: 50%; */
+    }
+
+    .popular article img{
+        width: 100%;
+
+    }
+
+    .popular article:last-child{
+        margin-right: 30px;
+    }
+
+    /* top的黃色條 */
+    .popular .ranking{
+        width: 50%;
+
+        position: absolute;
+        left: 170px;
+
+    }
+
+
+
+    /* -------------------學堂------------------------ */
+
+    .school{
+        width: auto;
+    }
+
+
+    .school h3{
+        text-align: center;
+        margin-left: 10px;
+        font-size: 2.8rem;
+        padding-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+
+    }
+
+    .school h5{
+        font-size: 2rem;
+        margin-left: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .school p{
+        margin: 0 20px;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .s_m{
+        margin-bottom: 20px;
+    }
+
+    .sch_intext{
+        width: auto;
+        font-size: 1rem;
+        display: none;
+    }
+
+
+
+
+    .mo{
+        /* display: none; */
+        display: block;
+    }
+
+    .mo li{
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .mo h5{
+        margin-top: 10px;
+    }
+
+    .mo_text{
+        display: block;
+        border: 1px solid peru;
+        margin-right: 10px;
+    }
+
+
+    .mo li img{
+        width: 30%;
+        height: 30%;
+        margin-left: 15px;
+    }
+
+
+    .school > img{
+        width: 50%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }    
+}
+
+/* -----------------------------------------------428--------------------------- */
 @media screen and (max-width:428px) {
     .wrapper{
         width: auto;
