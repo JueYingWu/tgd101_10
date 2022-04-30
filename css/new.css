@@ -16,10 +16,15 @@ body{
 
 }
 
+h2 span{
+    display: none;
+}
+
 h2 img{
     margin-top: 50px;
     margin-left: 30px;
     margin-bottom: 40px;
+    max-width: 100%;
 
 }
 
@@ -36,7 +41,7 @@ h2 img{
 .new_main > article {
     display: flex;
 
-    /* border: 1px solid peru; */
+    border: 1px solid peru;
     margin-bottom: 100px;
 
 }
@@ -46,13 +51,14 @@ h2 img{
 }
 
 .new_main img{
-    /* border:  1px solid blue; */
+    border:  1px solid blue;
     margin-left: 35px;
+    width: 100%;
 
 }
 
 .new_text{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin-left: 35px;
     padding: 0 35px;
     padding-top: 30px;
@@ -60,7 +66,7 @@ h2 img{
 } 
 
 .new_text h3{
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: bold;
     color: #B54F4F;
     margin-bottom: 20px;
@@ -68,7 +74,7 @@ h2 img{
 } 
 
 .new_text time{
-    font-size: 28px;
+    font-size: 2.8rem;
     color: #e29191;
 
 } 
@@ -82,4 +88,72 @@ h2 img{
 
 .new2{
     flex-direction: row-reverse;
+}
+
+/* ------------------575.98------------------- */
+@media screen and (max-width:575.98px){
+    .wrapper{
+        width: auto;
+    }
+
+    h2 img{
+        display: none;
+    }
+
+    h2 span{
+        display: block;
+        margin-left: 10px;
+        font-size: 1.8rem;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .breadcrumbs{
+        margin-left: 10px;
+        font-size: 1.2rem;
+    }
+
+
+    /* 主要區塊 */
+
+    .new_main{
+        margin-top: 15px;
+    }
+
+    .new_main > article{
+        display: block;
+        margin-bottom: 15px;
+    }
+
+
+
+
+    .new_main img{
+        max-width: -webkit-fill-available;
+        margin: 0 10px;
+    }
+
+    .new_text{
+        margin: 0 10px;
+        /* padding: 0 10px;
+        padding-top: 15px; */
+        padding: 10px 10px 0 10px;
+
+    }
+
+    .new_text h3{
+        font-size: 2.8rem;
+        margin-bottom: 5px;
+
+    }
+
+    .new_text time{
+        font-size: 1.5rem;
+    }
+
+    .new_text p{
+        font-size: 1.5rem;
+        padding-top: 15px;
+        line-height: 20px;
+    }
 }

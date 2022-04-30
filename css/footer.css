@@ -73,9 +73,9 @@ footer{
 
     .f_main{
         /* flex-direction: column; */
-        width: auto;
+        width: 100%;
         /* justify-content: start; */
-        display: block;
+        /* display: block; */
     }
 
     .f_main h5{
@@ -118,7 +118,7 @@ footer{
 
     .f_main{
         /* flex-direction: column; */
-        width: auto;
+        /* width: auto; */
         /* justify-content: start; */
         display: block;
     }

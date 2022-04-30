@@ -98,7 +98,7 @@ body{
 }
 
 .item_new time{
-    margin-left: 200px;
+    /* margin-left: 200px; */
     color: #e29191;
     
 }
@@ -433,7 +433,7 @@ body{
         width: 50%;
 
         position: absolute;
-        left: 170px;
+        left: -20px;
 
     }
 
@@ -464,9 +464,10 @@ body{
     }
 
     .school p{
-        margin: 0 20px;
+        margin: 0 10px;
         font-size: 1.5rem;
         line-height: 2rem;
+        
     }
 
     .s_m{
@@ -665,7 +666,7 @@ body{
     }
 
     .school p{
-        margin: 0 20px;
+        /* margin: 0 20px; */
         font-size: 1.5rem;
         line-height: 2rem;
     }

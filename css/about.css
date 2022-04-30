@@ -70,7 +70,8 @@ h2 img{
 }
 
 .about1_left img{
-    /* width: 100%; */
+    max-width: 100%;
+    height: max-content;
 }
 
 
@@ -97,9 +98,9 @@ h2 img{
     /* width: 16px; */
     writing-mode: vertical-lr;
     border: 1px solid red;
-    position: relative;
+    position: absolute;
     left: 90px;
-    top: 10px; 
+    top: 400px; 
 }
 
 
@@ -155,9 +156,140 @@ h2 img{
     /* margin-left: 60px; */
 }
 
+/* -----------------------575.98---------------------------- */
+@media screen and (max-width:575.98px){
+    .wrapper{
+        width: auto;
+    }
+    
+    .banner .about_bl{
+        display: none;
+    }
 
-/*  */
+    .banner .about_bs{
+        display: block;
+    }
 
+    h2 img{
+        display: none;
+    }
+
+    h2 span{
+        display: block;
+        margin-left: 10px;
+        font-size: 1.8rem;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .breadcrumbs{
+        margin-left: 10px;
+        font-size: 1.2rem;
+    }
+
+
+    .about_main{
+        margin-top: 10px;
+    }
+
+    /* -----------上面的區塊------------- */
+
+    .about1{
+        /* display: block; */
+        padding-bottom: 0;
+
+    }
+
+
+
+
+
+
+    /* 左邊 */
+
+    .about1_left{
+        width: 100%;
+        display: flex;
+    }
+
+    .about1_left img{
+        /* width: 50%;
+        height: 50%; */
+        margin-right: 5px;
+    }
+
+    .about1_left .l1, .l2{
+        display: none;
+    }
+
+    .about1_left .l3{
+        /* position: absolute;
+        left: 40px;
+        top: 70px; */
+        position: static;
+
+        border: 3px solid #fff;
+
+    }
+
+    .about1_left p{
+        font-size: 1rem;
+        color: #fff;
+        left: 9px;
+        top: 10px;
+    }
+
+
+
+    /* 右邊 */
+
+    .about_text{
+        width: 100%;
+        margin: 0;
+    }
+
+    .top_text{
+        margin-left: 15px;
+    }
+
+    .about_text h3{
+        font-size: 1.5rem;
+        padding-top: 0;
+        margin-left: 0;
+    }
+
+    .about_text p{
+        font-size: 1rem;
+        padding-top: 10px;
+        line-height: 1.5rem;
+    }
+
+
+    .top_text{
+        margin-top: 0;
+    }
+
+
+    /* ------------下面的區塊--------------- */
+
+    .about2{
+        margin: 20px 35px;
+    }
+
+    .bottom_text{
+        margin-right: 15px;
+    }
+
+    .about2 img{
+        width: 50%;
+        margin: 0;
+    }
+
+}
+
+
+
+/* -----------------------428---------------------------- */
 @media screen and (max-width:428px){
     .wrapper{
         width: auto;
@@ -214,15 +346,15 @@ h2 img{
     }
 
     .about1_left img{
-        width: 50%;
-        height: 50%;
+        /* width: 50%;
+        height: 50%; */
         margin-right: 5px;
     }
 
     .about1_left .l3{
-        position: absolute;
+        /* position: absolute;
         left: 40px;
-        top: 70px;
+        top: 70px; */
 
         border: 3px solid #fff;
 
@@ -230,8 +362,8 @@ h2 img{
 
     .about1_left p{
         font-size: 1rem;
-        left: -40px;
-        top: 100px;
+        /* left: -40px;
+        top: 100px; */
     }
 
 

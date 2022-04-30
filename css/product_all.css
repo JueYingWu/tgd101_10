@@ -16,8 +16,10 @@ body{
 
 }
 
-h2{
-    font-size: 48px;
+
+h2 span{
+    display: block;
+    font-size: 4.8rem;
     margin-top: 50px;
     margin-left: 30px;
     margin-bottom: 40px;
@@ -32,14 +34,14 @@ h2{
 /* ---------產品分類------------ */
 
 .p_t{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     margin: 100px 0;
 }
 
 .p_t article{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     margin-right: 20px;
 }
 
@@ -49,6 +51,7 @@ h2{
 
 .p_t article img{
     border-radius: 50%;
+    width: 100%;
 }
 
 .p_t article span{
@@ -59,7 +62,7 @@ h2{
 /* ---------產品區塊------------ */
 
 .p_m{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     width: 900px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -82,27 +85,29 @@ h2{
 }
 
 .p_m article img{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
+    width: 100%;
     
 }
 
 .p_m article h4{
-    margin: 10px 0;
+    margin: 10px;
     
 }
 
 .p_m article span{
     display: block;
+    margin: 10px;
     
 }
 
 .p_m article .all_p_btn{
     margin-top: 20px;
-    width: 200px;
+    width: 100%;
     background-color: #f96248;
     border: 0;
     color: #fff;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 30px;
 
 }
@@ -123,3 +128,84 @@ h2{
     
 } */
 
+/* ----------------------575.98------------------- */
+@media screen and (max-width:575.98px){
+
+    .wrapper{
+        width: auto;
+    }
+
+    h2 span{
+        display: block;
+        margin-left: 10px;
+        font-size: 1.8rem;
+        padding-top: 15px;
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+
+    .breadcrumbs{
+        margin-left: 10px;
+        font-size: 1.2rem;
+    }
+
+    /* ---------產品分類--------- */
+    .p_t{
+        margin: 15px 5px;
+        
+    }
+
+    .p_t article img{
+        border: 1px dotted #000;
+    }
+
+    .p_t article span{
+        font-size: 1.2rem;
+    }
+
+
+
+    /* -----產品區塊----- */
+    .p_m{
+        width: auto;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+        flex-grow: 1;
+        margin: 0 5px;
+    }
+
+
+    /* 商品卡片 */
+
+    .p_m article{
+        margin-bottom: 20px;
+        width: 30%;
+        margin-right: 9px;
+
+    }
+
+    .p_m article:nth-child(3n){
+        margin-right: 0;
+
+    }
+
+    .p_m article img{
+    }
+
+    .p_m article h4{
+        font-size: 1.2rem;
+        margin-left: 5px;
+    }
+
+    .p_m article span{
+        font-size: 1.2rem;
+        margin-left: 5px;
+    }
+
+    .p_m article .all_p_btn{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+}
