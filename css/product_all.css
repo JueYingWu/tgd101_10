@@ -52,6 +52,7 @@ h2 span{
 .p_t article img{
     border-radius: 50%;
     width: 100%;
+    border: 2px solid rgb(103, 76, 10);
 }
 
 .p_t article span{

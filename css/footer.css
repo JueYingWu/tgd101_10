@@ -31,7 +31,9 @@ footer{
 .footer_right{
     border: 1px solid blue;
     display: flex;
-    margin-right: 200px;
+    margin-right: 100px;
+    align-items: center;
+    margin-top: 10px;
 
 }
 
@@ -72,7 +74,7 @@ footer{
     }
 
     .f_main{
-        /* flex-direction: column; */
+        flex-direction: column;
         width: 100%;
         /* justify-content: start; */
         /* display: block; */
@@ -80,6 +82,11 @@ footer{
 
     .f_main h5{
         font-size: 1.2rem;
+    }
+
+    .footer_right{
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
     .footer_right a{
@@ -118,13 +125,17 @@ footer{
 
     .f_main{
         /* flex-direction: column; */
-        /* width: auto; */
+        width: auto;
         /* justify-content: start; */
         display: block;
     }
 
     .f_main h5{
         font-size: 1.2rem;
+    }
+
+    .footer_right{
+        margin-bottom: 10px;
     }
 
     .footer_right a{

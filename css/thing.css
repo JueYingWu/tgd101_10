@@ -17,11 +17,11 @@ body{
 }
 
 h2 span{
+    display: block;
     font-size: 4.8rem;
     margin-top: 50px;
     margin-left: 30px;
     margin-bottom: 40px;
-    margin-top: 0;
 
 
 }
@@ -52,6 +52,8 @@ h2 span{
 .p_t article img{
     border-radius: 50%;
     width: 100%;
+    border: 2px solid rgb(103, 76, 10);
+
 
 }
 
@@ -63,7 +65,7 @@ h2 span{
 /* ---------產品區塊------------ */
 
 .p_m{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     width: 900px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -79,8 +81,8 @@ h2 span{
     border: 2px solid #777;
     margin-bottom: 50px;
 
-    flex-basis: 200px;
-    margin-left: 20px;
+    /* flex-basis: 200px; */
+    margin-left: 15px;
 
 
 
@@ -91,14 +93,14 @@ h2 span{
 }
 
 .p_m article img{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     width: 100%;
 
     
 }
 
 .p_m article h4{
-    margin: 10px 0;
+    margin: 10px;
     
 }
 
@@ -110,7 +112,7 @@ h2 span{
 
 .p_m article .all_p_btn{
     margin-top: 20px;
-    width: 200px;
+    width: 100%;
     background-color: #f96248;
     border: 0;
     color: #fff;
@@ -149,6 +151,7 @@ h2 span{
         font-size: 1.8rem;
         padding-top: 15px;
         margin-bottom: 15px;
+        margin-top: 0;
     }
 
     .breadcrumbs{
@@ -187,7 +190,7 @@ h2 span{
     .p_m article{
         margin-bottom: 20px;
         width: 30%;
-        margin-right: 9px;
+        margin-left: 5px;
 
     }
 

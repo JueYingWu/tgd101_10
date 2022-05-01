@@ -14,6 +14,10 @@ body{
     margin: 0 auto;
 }
 
+h2 span{
+    display: none;
+}
+
 h2 img{
     margin-top: 50px;
     margin-left: 30px;
@@ -29,14 +33,16 @@ h2 img{
 /* ----------內容外層-------------- */
 
 .store{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     position: relative;
+    margin-top: 50px;
 }
 
-.store img{
+.store > img{
     display: block;
-    /* border: 1px solid green; */
-    margin: 150px auto;
+    border: 1px solid green;
+    margin: 0 auto;
+    width: 70%;
 
 }
 
@@ -53,38 +59,44 @@ h2 img{
 /* 觀察用 */
 .store_main li{
     width: 438px;
-    /* height: 437px; */
+    height: 437px;
     border-radius: 50%;
-    /* border: 1px solid #000; */
+    border: 1px solid #000;
 }
 
 .store_main li img{
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 /* li絕對定位 */
 .store_main li:first-child{
     position: absolute;
     right: 160px;
-    top: -250px;
+    /* top: -150px; */
+    top: 80px;
 }
 
 .store_main li:nth-child(2){
     position: absolute;
     right: 550px;
-    top: 20px;
+    /* top: 130px; */
+    top: 340px;
+
 }
 
 .store_main li:nth-child(3){
     position: absolute;
     right: 150px;
-    top: 310px;
+    /* top: 390px; */
+    top: 590px;
+
 }
 
 .store_main li:last-child{
     position: absolute;
     right: 450px;
-    top: 690px;
+    /* top: 760px; */
+    top: 960px;
 
 }
 
@@ -235,4 +247,48 @@ h2 img{
   
 .s_four:hover .store4{
     opacity: 1;
+}
+
+/* ------------------575.98------------------- */
+@media screen and (max-width:575.98px){
+    .wrapper{
+        width: auto;
+    }
+
+    h2 img{
+        display: none;
+    }
+
+    h2 span{
+        display: block;
+        margin-left: 10px;
+        font-size: 1.8rem;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .breadcrumbs{
+        margin-left: 10px;
+        font-size: 1.2rem;
+    }
+
+
+    .store_main img{
+        width: 100%;
+    }
+
+    .store_main li{
+        width: 219px;
+        height: 218.5px;
+        
+    }
+
+    /* 店家
+    .store_main li:first-child{
+        position: static;
+    }
+
+    .store_main li:nth-child(2){
+        position: static;
+    } */
 }

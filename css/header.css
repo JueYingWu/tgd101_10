@@ -305,6 +305,10 @@ header{
     .nav_main .nav_menu li{
         width: 100%;
     }
+
+    li:hover .nav_menu{
+        display: none;
+    }
 }
 
 /* RWD 428*/
@@ -394,6 +398,10 @@ header{
         width: 100%;
     }
 
+
+    li:hover .nav_menu{
+        display: none;
+    }
 
 }
 
