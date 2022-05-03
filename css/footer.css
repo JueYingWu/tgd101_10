@@ -65,6 +65,24 @@ footer{
     right: 200px;
     bottom: 20px;
 }
+
+/* ------------------1200------------------ */
+@media screen and (max-width:1200px){
+    footer{
+        /* width: auto; */
+        /* height: auto; */
+    }
+
+    .f_main{
+        width: 100%;
+    }
+
+    .remark{
+
+    }
+}
+
+
 /* -------------------------575.98-------------------------- */
 @media screen and (max-width:575.98px){
     footer{

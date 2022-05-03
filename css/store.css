@@ -115,6 +115,46 @@ h2 img{
     padding: 16px 32px;
   }
 
+  /* 手機版 區塊 */
+
+
+  .store_s{
+    border: 1px solid #000;
+    display: none;
+  }
+
+  .store_s li{
+      position: relative;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .store_s img{
+    border-radius: 50%;
+    width: 50%;
+  }
+
+  .store_s_text{
+
+    background-color: #4fab66;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.2rem;
+
+    position: absolute;
+    left: 100px;
+    top: 120px;
+
+  }
+
+  .store_s_text h5{
+
+  }
+
+  .store_s_text p{
+
+  }
+
 /* ---------hover----------- */
 
 /* 第一個 */
@@ -272,14 +312,22 @@ h2 img{
         font-size: 1.2rem;
     }
 
+    .store > img{
+        display: none;
+    }
+
+    .store_main{
+        display: none;
+    }
+
 
     .store_main img{
         width: 100%;
     }
 
     .store_main li{
-        width: 219px;
-        height: 218.5px;
+        /* width: 219px;
+        height: 218.5px; */
         
     }
 
@@ -291,4 +339,9 @@ h2 img{
     .store_main li:nth-child(2){
         position: static;
     } */
+
+
+    .store_s{
+        display: block;
+    }
 }

@@ -20,9 +20,9 @@ a{
 
 
 .wrapper{
-    width: 1440px;
+    width: 1200px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 
@@ -40,7 +40,7 @@ button, input:hover{
 
 /* ---------header--------- */
 header{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 1200px;
     height: 120px;
     margin: 0 auto;
@@ -54,7 +54,7 @@ header{
 
 /* ----------功能列----------- */
 .nav_top{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     margin-left: auto;
     line-height: 24px;
     
@@ -89,7 +89,7 @@ header{
 /* ---------主選單------------ */
 .nav_content{
     width: 1200px;
-    /* border: 1px solid purple; */
+    border: 1px solid purple;
     display: flex;
     /* margin: 0 auto; */
     justify-content: space-between;
@@ -106,7 +106,7 @@ header{
 
 
 .nav_main{
-    /* border: 1px solid green; */
+    border: 1px solid green;
     margin-right: 30px;
 
 }
@@ -118,7 +118,7 @@ header{
 }
 
 .nav_main li{
-    /* border: 1px solid #ccc; */
+    border: 1px solid #ccc;
     margin-right: 40px;
 
 
@@ -217,6 +217,48 @@ header{
 
 /* .nav_top .b_line:  */
 
+/* ------------------1200-------------------- */
+@media screen and (max-width:1200px) {
+
+    .wrapper{
+        width: 100%;
+      }
+
+      header{
+        width: auto;
+        height: auto;
+    }
+
+    /* 功能列 */
+
+    .nav_top ul{
+        width: auto;
+    }
+
+
+    /* 主選單 */
+    .nav_content{
+        /* width: auto; */
+    }
+
+    .nav_content h1 img{
+        width: 90%;
+    }
+
+    /* 上方主標題的字 */
+
+    
+    .nav_main .nav_menu li{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+}
 
 
 /* -------------------575.98------------------------ */

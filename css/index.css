@@ -35,7 +35,7 @@ body{
     width: 1200px;
     height: 570px;
     margin: 0 auto;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     /* background-image: url(./img//index/new/new_bg3.png); */
     text-align: center;
 
@@ -59,7 +59,7 @@ body{
 }
 
 .item_new{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 350px;
     height: 400px;
     /* background-color: #B54F4F; */
@@ -108,7 +108,7 @@ body{
 
 /* ----------熱銷排行----------- */
 .hat{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     width: 1200px;
     height: 500px;
     margin: 0 auto;
@@ -129,7 +129,7 @@ body{
 
 .popular{
     display: flex;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     justify-content: center;
 
 
@@ -207,7 +207,7 @@ body{
 
 /* -------筆的部分------ */
 .s_m{
-    /* border: 1px solid #000; */
+    border: 1px solid #000;
     margin-top: 20px;
     margin-bottom: 85px;
     /* background-image: url(../img/index/school/bg2.png);
@@ -246,7 +246,7 @@ body{
     margin-top: 50px;
     margin-left: -7px;
 
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 
     position: relative;
     
@@ -257,7 +257,7 @@ body{
 }
 
 .mo li img{
-    /* border: 1px solid palevioletred; */
+    border: 1px solid palevioletred;
 
 }
 
@@ -309,6 +309,84 @@ body{
 .mo_both:hover{
 
     transform: scale(1.2);
+
+}
+
+/* ---------------------1200------------------------- */
+
+@media screen and (max-width:1200px){
+    .wrapper{
+        width: auto;
+    }
+
+    /* ------------------banner---------------------- */
+
+    .banner .banner_l{
+        display: block;
+        max-width: 100%;
+    }
+
+    /* ---------------------最新消息------------------- */
+    .new_content{
+        width: auto;
+        height: auto;
+    }
+
+    .new{
+        width: 100%;
+    }
+
+    .item_new{
+        width: 330px;
+
+    }
+
+    .item_new img{
+        width: 100%;
+    }
+
+    /* --------------------熱銷排行------------- */
+    .hat{
+        width: auto;
+        height: auto;
+    }
+
+    .hat h3{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .popular{
+    }
+
+    .popular article img{
+        width: 100%;
+    }
+
+    .popular .ranking{
+        width: auto;
+    }
+
+    /* -------------------學堂------------------------ */
+
+    .school{
+        width: auto;
+    }
+
+    .s_m{
+    }
+
+    .sch_intext{
+        max-width: fit-content;
+    }
+
+    .mo li img{
+        width: 70%;
+    }
+}
+
+/* ------------------------------1080---------------------------------------- */
+@media screen and (max-width:1200px){
 
 }
 
@@ -399,7 +477,7 @@ body{
 
     .hat h3{
         text-align: center;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         font-size: 2.8rem;
         padding-top: 15px;
         margin-bottom: 15px;
@@ -474,6 +552,7 @@ body{
 
     .s_m{
         margin-bottom: 20px;
+        margin-top: 0;
     }
 
     .sch_intext{
