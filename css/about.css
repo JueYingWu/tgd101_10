@@ -156,6 +156,15 @@ h2 img{
     /* margin-left: 60px; */
 }
 
+@media screen and (max-width:1200px){
+    .wrapper{
+        width: auto;
+    }
+
+
+    
+}
+
 /* -----------------------575.98---------------------------- */
 @media screen and (max-width:575.98px){
     .wrapper{

@@ -1,5 +1,6 @@
 @import url("rest.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+@import url("ham.css");
 @import url("footer.css");
 html{
     font-size: 62.5%;
@@ -86,6 +87,7 @@ header{
 
 }
 
+
 /* ---------主選單------------ */
 .nav_content{
     width: 1200px;
@@ -135,6 +137,15 @@ header{
 .nav_main span{
     font-size: 3rem;
 }
+
+/* ==========漢堡=========== */
+.hamburger{
+
+    display: none;
+
+}
+
+
 
 /* ----------子選單---------- */
 .nav_main .nav_menu{
@@ -253,11 +264,15 @@ header{
     }
 
 
+}
 
+/* --------------------955----------------------- */
+@media screen and (max-width:955px){
+    .hamburger{
+        display: block;
+    }
 
-
-
-
+    
 }
 
 
