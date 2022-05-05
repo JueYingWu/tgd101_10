@@ -1,3 +1,33 @@
+// 廣告圖
+$(function () {
+    let divWidth = $('.banner').width();
+    let imgCount = $('.banner_l li').length;  
+
+    for(let i = 0; i < imgCount; i++){
+        $('#contentButton').append('<li></li>')
+    }
+    $('#contentButton li:nth-child(1)').addClass('clickMe')
+
+    $('.banner_l').width(divWidth * imgCount)
+    $('#content li').width(divWidth)
+
+    let index;
+    $('#contentButton li').click(function(){
+        // alert($(this).index())
+        index = $(this).index()
+
+        $('.banner_l').animate({
+            left: divWidth * index * -1,
+        })
+
+        $(this).addClass('clickMe')
+        $('#contentButton li').not(this).removeClass('clickMe')
+    })
+});
+
+
+
+// 毛筆學堂
 window.onload = function(){
 
 	document.getElementById("wo").onmouseover = chPic;
@@ -21,3 +51,6 @@ window.onload = function(){
 	}
 
 }
+
+
+
