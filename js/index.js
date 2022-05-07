@@ -30,9 +30,9 @@ $(function () {
 // 毛筆學堂
 window.onload = function(){
 
-	document.getElementById("wo").onmouseover = chPic;
-	document.getElementById("sh").onmouseover = chPic;
-	document.getElementById("bo").onmouseover = chPic;
+	document.getElementById("wo").onclick = chPic;
+	document.getElementById("sh").onclick = chPic;
+	document.getElementById("bo").onclick = chPic;
 
 	var targetText = document.getElementById('feDev');
 

@@ -118,6 +118,7 @@ header{
 .nav_main ul{
     display: flex;
     position: relative;
+
    
 }
 
@@ -154,8 +155,6 @@ header{
 
     /* border: 1px solid #ccc; */
     background-color: #fff;
-
-
     position: absolute;
     right: 290px;
     top: 36px;
@@ -163,6 +162,7 @@ header{
     flex-direction: column;
 
     display: none;
+    z-index: 1;
 
 }
 
@@ -262,7 +262,8 @@ header{
 
     
     .nav_main .nav_menu li{
-        width: 100%;
+        width: auto;
+        padding: 0 20px;
     }
 
 
@@ -328,6 +329,8 @@ header{
     .nav_main ul{
         flex-direction: column;
         justify-content: start;
+        z-index: 1;
+        background-color: rgba(255,255,255,.8);
 
     }
 
@@ -344,6 +347,7 @@ header{
     /* ----------子選單---------- */
     .nav_main .nav_menu{
         display: none;
+
     }
 
     .nav_menu li:hover{
@@ -435,6 +439,7 @@ header{
     /* ----------子選單---------- */
     .nav_main .nav_menu{
         display: none;
+
     }
 
     .nav_menu li:hover{
