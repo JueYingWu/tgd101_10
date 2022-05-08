@@ -65,7 +65,7 @@ h2 span{
 /* ---------產品區塊------------ */
 
 .p_m{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 900px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -93,7 +93,7 @@ h2 span{
 }
 
 .p_m article img{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
 
     

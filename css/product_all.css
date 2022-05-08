@@ -34,14 +34,14 @@ h2 span{
 /* ---------產品分類------------ */
 
 .p_t{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     margin: 100px 0;
 }
 
 .p_t article{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-right: 20px;
 }
 
@@ -63,7 +63,7 @@ h2 span{
 /* ---------產品區塊------------ */
 
 .p_m{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 900px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -86,7 +86,7 @@ h2 span{
 }
 
 .p_m article img{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     
 }
@@ -112,6 +112,22 @@ h2 span{
     line-height: 30px;
 
 }
+
+/* gotop */
+.gotop{
+    display: block;
+    font-size: 5.5rem;
+    color: rgb(21, 65, 177);
+    position: fixed;
+    right: 30px;
+	bottom: 190px;
+
+}
+
+.gotop:hover{
+    color: #671b6a;
+}
+
 
 
 /* ---------hover---------- */

@@ -41,7 +41,7 @@ h2 img{
 .new_main > article {
     display: flex;
 
-    border: 1px solid peru;
+    /* border: 1px solid peru; */
     margin-bottom: 100px;
 
 }
@@ -51,14 +51,14 @@ h2 img{
 }
 
 .new_main img{
-    border:  1px solid blue;
+    /* border:  1px solid blue; */
     margin-left: 35px;
     width: 100%;
 
 }
 
 .new_text{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-left: 35px;
     padding: 0 35px;
     padding-top: 30px;
@@ -89,6 +89,22 @@ h2 img{
 .new2{
     flex-direction: row-reverse;
 }
+
+/* gotop */
+.gotop{
+    display: block;
+    font-size: 5.5rem;
+    color: rgb(21, 65, 177);
+    position: fixed;
+    right: 30px;
+	bottom: 190px;
+
+}
+
+.gotop:hover{
+    color: #671b6a;
+}
+
 
 /* ------------------575.98------------------- */
 @media screen and (max-width:575.98px){

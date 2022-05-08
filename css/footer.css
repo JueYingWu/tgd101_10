@@ -15,7 +15,7 @@ footer{
 
 .f_main{
     width: 1200px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,13 +23,13 @@ footer{
 }
 
 .footer_left{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-left: 100px;
 
 }
 
 .footer_right{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     margin-right: 100px;
     align-items: center;
@@ -78,6 +78,10 @@ footer{
     }
 
     .remark{
+        /* position: static;
+        font-size: 1rem;
+        margin-bottom: 15px;
+        margin-left: 5px; */
 
     }
 }

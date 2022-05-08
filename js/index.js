@@ -52,5 +52,17 @@ window.onload = function(){
 
 }
 
+//開關 
+AOS.init({
+    delay: 100,
+    duration: 500,
+    easing: 'ease-out',
+});
 
-
+// 上去按鈕
+$(function(){
+    $('.gotop').click(function(){
+        $('html,body').animate({scrollTop: 0}, 500)
+        return false;
+    })
+})

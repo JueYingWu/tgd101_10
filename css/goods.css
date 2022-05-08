@@ -44,6 +44,7 @@ body{
 .main_left > img{
     /* border: 1px solid pink; */
     border: 3px solid #777;
+    width: 100%;
 
 
 }
@@ -52,6 +53,7 @@ body{
     display: flex;
     justify-content: left;
     margin-top: 25px;
+    width: 100%;
 
 }
 
@@ -195,8 +197,120 @@ form button{
 }
 
 .hat_main article img{
-    /* width: 50%; */
+    width: 100%;
     border: 2px solid rgb(218, 199, 61);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+/* gotop */
+.gotop{
+    display: block;
+    font-size: 5.5rem;
+    color: rgb(21, 65, 177);
+    position: fixed;
+    right: 30px;
+	bottom: 190px;
+
+}
+
+.gotop:hover{
+    color: #671b6a;
+}
+
+
+/* ---------------------1200------------------------- */
+
+@media screen and (max-width:1200px){
+    .wrapper{
+        width: auto;
+    }
+    
+}
+
+/* ---------------------900------------------------- */
+
+@media screen and (max-width:900px){
+
+    .main_left{
+        display: grid;
+        /* width: 500px; */
+        margin: 0 auto;
+
+    }
+
+    .main_left > img{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .little_img{
+        justify-content: center;
+    }
+
+    .goods_main{
+        display: block;
+        margin-top: 50px;
+    }
+
+    .goods_line{
+        width: 500px;
+    }
+
+    .main_right{
+
+    }
+
+    .goods_text{
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    .goods_text h3{
+        font-size: 2.8rem;
+        padding-bottom: 25px;
+    }
+
+    .goods_text span{
+        font-size: 2rem;
+    }
+
+    .goods_text p{
+        font-size: 1.8rem;
+    }
+
+    form{
+        width: 400px;
+        margin: 20px auto;
+
+    }
+
+}
+
+/* -----------------------575.98---------------------------- */
+@media screen and (max-width:575.98px){
+
+    .breadcrumbs{
+        margin-left: 10px;
+        font-size: 1.2rem;
+    }
+
+    .goods_main{
+        display: block;
+        margin-top: 20px;
+    }
+
+    .goods_line{
+        width: 300px;
+    }
+
+    form{
+        width: 300px;
+    }
+
+    .number{
+        width: 120px;
+    }
 
 }
