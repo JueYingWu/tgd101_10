@@ -124,7 +124,7 @@ header{
 }
 
 .nav_main li{
-    /* border: 1px solid #ccc; */
+    border: 1px solid #ccc;
     margin-right: 40px;
 
 
@@ -154,7 +154,7 @@ header{
 /* ----------子選單---------- */
 .nav_main .nav_menu{
 
-    /* border: 1px solid #ccc; */
+    border: 1px solid #ccc;
     background-color: #fff;
     position: absolute;
     right: 290px;
