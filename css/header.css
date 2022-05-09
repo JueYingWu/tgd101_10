@@ -124,7 +124,7 @@ header{
 }
 
 .nav_main li{
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     margin-right: 40px;
 
 
@@ -342,6 +342,7 @@ header{
     .nav_main li a{
         padding: 20px;
         /* margin-bottom: 15px; */
+        border: 1px solid #ccc;
     }
 
     
