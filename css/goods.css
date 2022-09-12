@@ -206,7 +206,7 @@ form button{
 
 /* gotop */
 .gotop{
-    display: block;
+    display: none;
     font-size: 5.5rem;
     color: rgb(21, 65, 177);
     position: fixed;
