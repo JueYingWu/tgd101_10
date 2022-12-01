@@ -17,10 +17,11 @@
         <header>
             <nav class="nav_top">
                 <ul>
-                    <li>
+                    <li class="shop_li">
                         <a href="#">
-                            購物車
-                            <img src="./img/nav/nav_top.png" alt="">
+                            <!-- 購物車 -->
+                            <img src="./img/nav/nav_top.png" alt="" class="shopping_car">
+                            <div class="shopping_nums" data-num="1">1</div>
                         </a>
                         <!-- <span class="b_line"></span> -->
                     </li>
@@ -116,8 +117,8 @@
 
             <article class="main_right">
                 <div class="goods_text">
-                    <h3>舒軾大狼毫</h3>
-                    <span>NT$ 380</span>
+                    <h3 id="p_id">舒軾大狼毫</h3>
+                    <span id="p_price">NT$ 380</span>
                     <p>產品特性：狼毫/標準鋒/大楷筆</p>
                     <p>書寫範圍：6-8cm</p>
                     <p>用途：書寫、繪畫用筆</p>
@@ -130,6 +131,7 @@
                         <input class="n_minus" type="button" value="-">
                         <input class="n_n" type="number" value="1" name="" id="" readonly min="1">
                         <input class="n_plus" type="button" value="+">
+                        <!-- <input id="n_plus" type="button" value="+"> -->
                     </div>
                     <button class="btn_add">加入購物車</button>
                     <button class="btn_buy">直接購買</button>
@@ -195,6 +197,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/goods.js"></script>
 
 </body>
 </html>

@@ -72,6 +72,7 @@ header{
     display: flex;
     justify-content: end;
     align-items: center;
+    padding-top: 10px;
 
 
 }
@@ -89,6 +90,26 @@ header{
 
 }
 
+.shop_li{
+    position: relative;
+    /* border: 1px solid red; */
+
+}
+
+.shopping_nums{
+    display: none;
+    /* border: 1px solid black; */
+    width: 20px;
+    line-height: 20px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
 
 /* ---------主選單------------ */
 .nav_content{
@@ -401,7 +422,7 @@ header{
     }
 
     .nav_top img{
-        width: 20%;
+        width: 80%;
     }
 
 
@@ -504,7 +525,7 @@ header{
     }
 
     .nav_top img{
-        width: 20%;
+        width: 70%;
     }
 
 
